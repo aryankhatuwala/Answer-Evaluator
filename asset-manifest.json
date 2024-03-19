@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05779f5a.css",
+    "main.js": "/static/js/main.beee4681.js",
+    "static/js/453.4c0d688c.chunk.js": "/static/js/453.4c0d688c.chunk.js",
+    "static/media/question.avif": "/static/media/question.bb12895f2e6561543ae2.avif",
+    "index.html": "/index.html",
+    "main.05779f5a.css.map": "/static/css/main.05779f5a.css.map",
+    "main.beee4681.js.map": "/static/js/main.beee4681.js.map",
+    "453.4c0d688c.chunk.js.map": "/static/js/453.4c0d688c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05779f5a.css",
+    "static/js/main.beee4681.js"
+  ]
+}
