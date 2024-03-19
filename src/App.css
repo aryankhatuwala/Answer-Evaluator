@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+::selection {
+  color: red; /* Change the color to your desired color */
+}
+
 .cool-image {
   width: 200px;
   margin: 20px;
