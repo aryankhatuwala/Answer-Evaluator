@@ -1,38 +1,59 @@
-.App {
+body {
+  background: linear-gradient(to bottom, #000, #0000FF); /* black to blue gradient */
+  color: #fff;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cool-image {
+  width: 200px;
+  margin: 20px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+  border-radius: 10px;
+  max-width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00FFFF; /* cyan */
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00CED1; /* darker cyan */
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  font-size: 18px;
+  font-weight: bold;
 }
